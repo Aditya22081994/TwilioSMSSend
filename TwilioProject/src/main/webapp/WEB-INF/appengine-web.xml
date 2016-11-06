@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+    <application>twiliosmsdemo</application>
+    <version>1.9.38</version>
+    <threadsafe>true</threadsafe>
+    
+    <env-variables>
+    <env-var name="TWILIO_ACCOUNT_SID" value="AC66ec6f28b2bb47850eb89c5b3e1ccc98" />
+    <env-var name="TWILIO_AUTH_TOKEN" value="324b994e3f12e20a3d0dd47153d28b34" />
+    <env-var name="TWILIO_NUMBER" value="+14049696940" />
+  </env-variables>
+    
+    <system-properties>
+        <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
+    </system-properties>
+</appengine-web-app>
